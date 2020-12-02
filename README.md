@@ -59,7 +59,7 @@
 
 ### 04_Classification_of_ECG_signals.ipynb: N, A, V, /, L, R 대상 2
 
-	#### 1-1-1 모델과의 차이점
+#### 03 모델과의 차이점
 
 * preprocessing) MISSB가 많이 있던 즉, 측정이 제대로 이루어 지지 않았던 231번 제외 X 즉, 포함
 
@@ -90,7 +90,7 @@
 
 ### 06_Classification_of_ECG_signals.ipynb: Super Class 대상 2 (resampling=3000, accuracy=92.19%)
 
-	1-2-1 모델과의 차이점
+#### 05 모델과의 차이점
 
 * Resampling) N, SVEB, VEB, F, Q 5가지 superclass의 개수 3000개로 맞춤
 
@@ -106,7 +106,7 @@
 
 ### 07_Classification_of_ECG_signals.ipynb: Super Class 대상 3 (resampling=5000, dwt, accuracy=95.76%)
 
-	1-2-1 모델과의 차이점
+#### 06 모델과의 차이점
 
 * train : test = 12000 : 3000 = 8 : 2
 
@@ -122,7 +122,7 @@
 
 ### 08_Classification_of_ECG_signals.ipynb: Super Class 대상 4 (window size=252, resampling=5000, dwt, accuracy=98.08%)
 
-	1-2-1 모델과의 차이점
+#### 07 모델과의 차이점
 
 * window size = 252 ( An Automated ECG Beat Classification System Using Deep Neural Networks with an Unsupervised Feature Extraction Technique 논문 참조 )
 
