@@ -2,7 +2,7 @@
 01~ 07 까지는 모두 시행착오로 08_Classification_of_ECG_signals.ipynb만 보면 된다.
 ## 1. MISSION: Beat Type Super Class Classifier 개발
   ### 1) data: MIT-BIH Arrhythmia Database
-      2) Target beat: N, A, V, /, L, R
+      2) Target beat:  N, SVEB, VEB, F, Q
   ### 2) Result
        a. Accuracy: 98%
        
@@ -12,13 +12,13 @@
   ### 2) Preprocessing
   a. MAIN LEAD: MLII (나머지 제외)
   
-  b. 데이터 불균형으로 인해, 각각 3000으로 Over/Undersampling 진행
+  b. 데이터 불균형으로 인해, 각각 5000으로 Over/Undersampling 진행
   
   c. DWT + Normalization 적용 
   
   ### 3) 1D CNN
   
-  input : 약 3만 * 252 
+  input : 25000 * 252 
   
 ## 3. MODEL STRUCTURE
     1) conv. layer: 64 filters(6) [activation=relu]
